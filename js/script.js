@@ -67,8 +67,9 @@ function PhoneModule(containerName) {
 }
 
 window.onload = function() {
+    var phoneName = prompt('Input phone name');
     var phoneModule = new PhoneModule('#phone');
-    phoneModule.show('Asus');
+    phoneModule.show(phoneName);
 };
 
 
